@@ -3,7 +3,7 @@ class monster{
      var options =
      { isStatic: false
         }
-     this.Img1 = loadImage("monster-01.png");
+     this.Img1 = loadImage("Monster-01.png");
      this.body = Bodies.rectangle(x,y,width,height,options);
      World.add(world,this.body);
      this.width = width;
